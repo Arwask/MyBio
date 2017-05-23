@@ -1,0 +1,46 @@
+h1 
+{
+    background-color: blue;
+    color: darkblue;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+h2#headerStyle
+{
+	color: darkblue;
+	background-color: powderblue;
+    border: 0;
+    margin: 0;
+    text-align: left;
+}
+nav
+{
+	text-align: left;
+    background-color: aliceblue;
+}
+nav a
+{
+	width: 40%;
+	color: darkblue;
+	text-align: left;
+    text-decoration: none;
+    font-size: large;
+    margin-right: 2%;
+}
+footer
+{
+	color: gray;
+}
+footer#bodyFooter
+{
+    text-align: center;
+    color: gray;
+}
+body 
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
