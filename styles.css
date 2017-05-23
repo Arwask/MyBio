@@ -1,3 +1,7 @@
+/********************
+Header
+********************/
+
 h1 
 {
     background-color: blue;
@@ -11,28 +15,39 @@ h1
     border: .5px solid black;
     font-size: 3em;
 }
+div#heading h1
+{
+    display: inline;
+    float: left;
+}
+
+/********************
+Navigation
+********************/
 
 nav
 {
 	text-align: center;
     background-color: powderblue;
+    margin: 10px;
+    padding: 0;
+    border-radius: 15px;
+    /*border: .5px solid blue;*/
+}
+nav ul
+{
     margin: 0;
     padding: 0;
-    border: 0;
-    border-radius: 15px;
-    border: .5px solid blue;
 }
-
 nav li
 {
     margin: 0;
     padding: 0;
-    border: 0;
-    list-style: none;
+    list-style: none; /*for list styling*/
     display: inline-block;
     color: darkblue;
-    text-align: left;
-    text-decoration: none;
+    text-align: center;
+    text-decoration: none;  /* for the link underlines */
     margin-right: 2%;
 }
 nav a
@@ -44,13 +59,18 @@ nav a
     font-size: 2em;
     margin-right: 2%;
 }
+
+/********************
+Header2
+********************/
+
 h2#headerStyle
 {
     color: darkblue;
     background-color: aliceblue;
     /*border: 0;*/
     padding: 0;
-    margin: 0;
+    margin-top: 10px;
     text-align: center;
     border-radius: 15px;
     font-size: 2.5em;
@@ -67,15 +87,54 @@ article
     border: .5px solid darkblue;
     margin: 5px;
 }
+
+/********************
+footer
+********************/
+
 footer
 {
 	color: gray;
 }
-footer#bodyFooter
+
+/*footer#imgfooter
 {
     text-align: center;
     color: gray;
+    display: inline;
+    float: left;
+}*/
+
+footer#imgfooter
+{
+    text-align: center;
 }
+footer#imgfooter img
+{
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+    border: .5px solid gray;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+footer#imgfooter li
+{
+    list-style: none;
+    align-items: center;
+    display: inline-block;
+    float: center;
+}
+
+footer#imgfooter p
+{
+    text-align: center;
+}
+
+/********************
+Body
+********************/
 #bold
 {
     font-weight: 900 ;
