@@ -2,25 +2,38 @@ h1
 {
     background-color: blue;
     color: darkblue;
-    text-align: left;
+    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding-left: 5px;
+    outline: 0;
+    border-radius: 15px;
+    border: .5px solid black;
+    font-size: 3em;
+}
+
+nav
+{
+	text-align: center;
+    background-color: powderblue;
     margin: 0;
     padding: 0;
     border: 0;
-    outline: 0;
+    border-radius: 15px;
+    border: .5px solid blue;
 }
-h2#headerStyle
+
+nav li
 {
-	color: darkblue;
-	background-color: powderblue;
-    border: 0;
     margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    display: inline-block;
+    color: darkblue;
     text-align: left;
-}
-nav
-{
-	text-align: left;
-    background-color: aliceblue;
+    text-decoration: none;
+    margin-right: 2%;
 }
 nav a
 {
@@ -28,8 +41,31 @@ nav a
 	color: darkblue;
 	text-align: left;
     text-decoration: none;
-    font-size: large;
+    font-size: 2em;
     margin-right: 2%;
+}
+h2#headerStyle
+{
+    color: darkblue;
+    background-color: aliceblue;
+    /*border: 0;*/
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 2.5em;
+    border: .5px solid powderblue;
+}
+article
+{
+    display: block;
+    background-color: aliceblue;
+    border-radius: 15px;
+    color: darkblue;
+    text-align: left;
+    padding: 1px 2% 1px 2%;
+    border: .5px solid darkblue;
+    margin: 5px;
 }
 footer
 {
@@ -39,6 +75,10 @@ footer#bodyFooter
 {
     text-align: center;
     color: gray;
+}
+#bold
+{
+    font-weight: 900 ;
 }
 body 
 {
